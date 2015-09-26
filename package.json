@@ -1,11 +1,11 @@
 {
-  "name": "simditor",
-  "version": "2.2.4",
+  "name": "simditor-veg",
+  "version": "2.2.5",
   "description": "A simple online editor",
   "keywords": "editor simditor",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mycolorway/simditor.git"
+    "url": "git@github.com:kkxlkkxllb/simditor"
   },
   "author": "farthinker <farthinker@gmail.com>",
   "license": "MIT",

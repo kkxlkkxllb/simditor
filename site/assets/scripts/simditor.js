@@ -2754,6 +2754,9 @@ Button = (function(superClass) {
   };
 
   Button.prototype.iconClassOf = function(icon) {
+    if (icon.match('fa')) {
+      return "fa " + icon;
+    }
     if (icon) {
       return "simditor-icon simditor-icon-" + icon;
     } else {

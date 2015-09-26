@@ -103,6 +103,8 @@ class Button extends SimpleModule
       @_status() if @editor.inputManager.focused
 
   iconClassOf: (icon) ->
+    if icon.match('fa')
+      return "fa #{icon}"
     if icon then "simditor-icon simditor-icon-#{icon}" else ''
 
   setIcon: (icon) ->
